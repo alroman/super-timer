@@ -15,8 +15,10 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@use-it/interval": "^1.0.0",
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^2.32.3",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-offline": "^3.10.0",
     "gatsby-plugin-styled-components": "^3.10.0",
     "react": "^16.13.1",
