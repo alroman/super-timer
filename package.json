@@ -12,6 +12,7 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "clean": "gatsby clean"
   },
   "dependencies": {
@@ -24,5 +25,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
